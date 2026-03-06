@@ -1,0 +1,19 @@
+body{
+    font-family:'Pixelify Sans';
+    color: #2f1f3a; image-rendering: pixelated;
+    text-align: center;
+    background-color: #b9a3d6;
+display:grid; justify-content:  center; 
+}
+button{
+    font-family: 'Pixelify Sans';
+    color:#2f1f3a;font-size: small;
+    height: 64px; text-align: center;
+    background-color: #a88cc6; border: none;
+    border-radius: 5px;}
+    button:hover{
+        background-color: #e1d6f2;
+        color: #4e355f;}
+div{height: 256px; width: 256px;}
+.yes{width:256px;}
+img{height: 192px; width:192px;}

@@ -1,0 +1,73 @@
+body {
+    font-family: 'Pixelify Sans';
+    color: #2f1f3a;
+    image-rendering: pixelated;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    display: grid;
+    background-color: #b9a3d6;}
+
+button {
+    font-family: 'Pixelify Sans';
+    color: #2f1f3a;
+    font-size: small;
+    height: 64px;
+    text-align: center;
+    background-color: #a88cc6;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e1d6f2;
+    color: #4e355f;
+}
+#pranisec{
+    display: grid;
+    grid-template-columns: 256px 256px 256px;
+    grid-template-rows: auto;
+    row-gap: 10px;}
+    #box6{
+        background-image: url(novaanim/tabulka.png);
+        height: 256px; width: 256px;
+        background-size: 256px; image-rendering: pixelated;
+        background-repeat: no-repeat;
+        text-align: center;
+        grid-column: 1/2; grid-row: 1/2;
+        display: grid; grid-row: 128px; justify-content: center;}
+        #prani{
+            height: 150px; width: 180px; font-size: small; padding-top: 30px;
+            text-align: center;margin-top: 60px; margin-bottom: 60px;}
+        #zobrazprani{width:256px; grid-column: 1/2; grid-row: 2/3;}
+    #tv{
+        grid-column: 3/5; grid-row: 1/2;
+        width: 256px; height:256px;
+        background-image: url(novaanim/tvnova.png);
+        background-size: 8192px 256px;
+        background-repeat: repeat;}  
+        #imgtv{
+            width: 256px; height: 256px;
+            image-rendering: pixelated;}
+        #spustit{width:256px} 
+    #telka{
+        grid-column: 3/5; grid-row: 2/3;} 
+    #btn1{
+        grid-column: 1/2; grid-row: 2/3;}
+#kalendar{
+        background-image: url(novaanim/calendar.png);
+        image-rendering: pixelated;
+        width: 256px; height: 256px;
+        background-repeat: no-repeat;
+        background-size: 256px;
+        grid-column: 2/3; grid-row: 1/2;
+        }
+        #text{padding-top:30px;}
+        #zobrazprani{background-color: #e8d7a3;color: #3b2a1f;}
+        #zobrazprani:hover{background-color: #FBF4DD;} 
+#specialday{
+        background-image: url("novaanim/pozadi-0002.png");
+        background-size: 256px;height: 256px; width: 256px;
+        align-items: center; justify-content: center;
+} 

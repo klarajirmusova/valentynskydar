@@ -1,0 +1,50 @@
+body{font-family:'Pixelify Sans'; color:#505485; background-color: #e9d8e5; display:grid; justify-content: center; align-items: center; }
+button{font-family: 'Pixelify Sans'; background-image: url(background.png); color:#505485; border-color: #505485; height: 50px; width:auto; background-size: cover; background-repeat: no-repeat; text-decoration: none; font-size: large; font-style: bold;}
+input{font-family: 'Pixelify Sans'; color: #505485; height: 50px; font-family:'Pixelify Sans'; color:#505485; font-size: large;}
+
+#zobrazprani{justify-content: center; display: flex; align-items: center;}
+img{width: 400px; height: 400px;}
+#btn{width: 500px; height: 50px; display: flex; justify-content: center; align-items: center; text-align: center;}
+#tu{display: flex; justify-content: center;}
+
+#prihlaseni{display: grid; grid-template-columns: 300px 200px; grid-template-rows: 100px 50px 50px 200px; gap: 10px;}
+#box1{width: 500px; height: 100px;}
+#box2{width: 300px; height: 50px; grid-row: 2/3; grid-column: 1/2;}
+#box3{width: 100px; height: 50px; grid-row: 2/3; grid-column: 2/3;}
+#box5{width: 100px; height: 50px; grid-row: 3/4;grid-column: 2/3;}
+#box4{grid-row: 4/5; grid-column: 1/3; padding-top: 10px;}
+div{display: flex; justify-content: center;}
+#prani{height: 400px; width: 300px; padding-top: 200px; font-size: medium;}
+#box6{background-image: url(tabule\ .jpg); background-size: 500px; background-repeat: no-repeat; height: 500px; width: 500px;}
+#pranisec{display: grid; }
+
+.cubes{width: 128px; height: 128px;
+        background-image: url(kostky.png);
+        background-repeat: repeat;
+        image-rendering: pixelated;
+    background-size: 768px 128px;}
+
+.idlechar{width: 256px; height: 128px;
+        background-image: url(idleChar.png);
+        background-repeat: repeat;
+        image-rendering: pixelated;}
+
+#den{height: 100px; width:100px;padding-top: 28px;}
+#mesic{ height: 100px; width:100px; padding-top: 28px;}
+#rok{height: 100px; width:100px; margin-top: 65px; padding-top: 28px;}
+
+
+#kalendar{display: grid; grid-template-columns: 128px; grid-template-rows: 64px 64px 64px; gap:none;
+        background-image: url(kalendar.png); image-rendering: pixelated;
+        background-size: 128px 384px; width: 128px; height: 384px; text-align: center; justify-items: center;}
+#polička1{display:grid; grid-template-columns: 128px 128px; grid-template-rows: 128px 128px 128px 128px; grid-column: 1/2;}
+#postava{grid-row: 4/5; grid-column: 1/3;}
+#boxy{grid-row: 1/2; grid-column: 1/2;}
+.knihy{width: 64px; height: 128px;}
+#stranka{display: grid; grid-template-columns: 256px 384px; grid-template-rows: auto;}
+.televize{width: 384px; height: 384px; background-image: url(cube/televizkanoo.png);
+        background-repeat: repeat; background-size: 12288px 384px; image-rendering: pixelated; grid-row: 1/2;}
+#telka{display: grid; grid-template-rows: 384px 64px;}
+.btn{grid-row: 2/3; width: 384px; border-radius: 15px;}
+#zpět{grid-row:2/3; grid-column:1/2; height: 128px; width: 128px; font-style: normal; text-decoration: none;}
+#zpetBtn{width: 128px; height: 128px; text-decoration: none; border-radius: 15px;}

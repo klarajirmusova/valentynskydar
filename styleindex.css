@@ -1,0 +1,46 @@
+body{
+    font-family:'Pixelify Sans';
+    color: #2f1f3a; image-rendering: pixelated;
+    justify-content: center; align-items: center;
+    text-align: center; justify-items: center;
+    background-color: #b9a3d6; display: flex;}
+button{
+    font-family: 'Pixelify Sans';
+    color:#2f1f3a;font-size: small;
+    height: 64px; text-align: center;
+    background-color: #a88cc6; border: none;
+    border-radius: 5px;}
+    button:hover{
+        background-color: #e1d6f2;
+        color: #4e355f;}
+input{
+    font-family: 'Pixelify Sans'; color: #2f1f3a;
+    font-size: large; border: none; background-color: #e1d6f2;}
+#prihlaseni{
+    display: grid;
+    grid-template-columns: 128px 128px 128px 128px;
+    grid-template-rows: 128px 128px;
+    column-gap: 15px;row-gap: 5px;}
+    #box2{
+        display: grid; grid-template-columns: 64px 64px;
+        grid-template-rows: 64px 64px; row-gap: 8px;
+        column-gap: 5px;
+        grid-row: 2/3; grid-column: 2/3;}
+        #heslo{
+            grid-column: 1/3; grid-row: 1/2;
+            width: 128px; height: 64px;}
+        #odeslat{
+            grid-column: 1/2; grid-row: 2/3;
+            width: 64px; height: 64px;}
+        #tu{
+            grid-column: 2/3; grid-row: 2/3;
+            width: 64px; height: 64px;}
+    #box3{
+        width: 128px; height: 128px;
+        background-image: url(novaanim/anim2.png);
+        background-size: 2048px 128px; background-repeat:repeat;
+        image-rendering: pixelated;
+        grid-column: 3/4; grid-row: 2/3;}
+    #box1{
+        width: 512px; height: 128px; text-align: center;
+        grid-row: 1/2; grid-column: 1/5;}

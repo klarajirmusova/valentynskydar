@@ -1,0 +1,110 @@
+body {
+    font-family: 'Pixelify Sans';
+    color: #2f1f3a;
+    image-rendering: pixelated;
+    text-align: center;
+    background-color: #b9a3d6;
+    display: grid;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Pixelify Sans';
+    color: #2f1f3a;
+    font-size: small;
+    height: 64px;
+    text-align: center;
+    background-color: #a88cc6;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e1d6f2;
+    color: #4e355f;
+}
+
+#knihovna {
+    display: grid;
+    grid-template-columns: 256px 256px;
+    grid-template-rows: 128px 128px 128px;
+}
+
+#police {
+    background-image: url(novaanim/bookcase.png);
+    background-size: 256px 128px;
+    background-repeat: no-repeat;
+    width: 256px;
+    height: 128px;
+    image-rendering: pixelated;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 22px 44px 44px 44px 44px 44px;
+}
+
+.book {
+    width: 44px;
+    padding-top: 16px;
+}
+
+#kniha1 {
+    grid-column: 6/7;
+    grid-row: 1/2;
+}
+
+#kniha2 {
+    grid-column: 2/3;
+}
+
+#kniha3 {
+    grid-column: 3/4;
+}
+
+#kniha4 {
+    grid-column: 4/5;
+}
+
+#kniha5 {
+    grid-column: 5/6;
+}
+
+#police2 {
+    background-image: url(novaanim/bookcasespecial.png);
+    background-size: 256px 128px;
+    background-repeat: no-repeat;
+    width: 256px;
+    height: 128px;
+    image-rendering: pixelated;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 22px 44px 44px 44px 44px 44px;
+}
+
+.book {
+    width: 44px;
+    padding-top: 16px;
+}
+
+#special {
+    grid-column: 2/3;
+}
+
+#stul {
+    width: 512px;
+    height: 508px;
+    overflow-y: auto;
+    /* svislý scroll */
+    overflow-x: hidden;
+    border: none;
+    padding: 8px;
+}
+
+#stul:hover {
+    background-color: #815f98;
+    color: #d9c2f6;
+}
+
+#zpět {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}

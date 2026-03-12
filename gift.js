@@ -93,7 +93,7 @@ switch(dayMonth) {
         document.getElementById("specialday").textContent = 
             `V tento den roku 1879 se narodil slavný fyzik Albert Einstein`;
             break;
-    case "8.3":        
+    case "8.4":        
             document.getElementById("specialday").textContent = 
         `V tento den se fenka jménem Smoky stala válečným hrdinou. Pomáhala vojákům během války tím, že protáhla komunikační drát přes 20 metrů dlouhou a velmi úzkou trubku.`;
         break;
@@ -144,5 +144,6 @@ switch(dayMonth) {
     default:
         document.getElementById("specialday").textContent = `Dnes se neděje nic specialního`;
 }
+
 
 
